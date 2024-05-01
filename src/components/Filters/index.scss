@@ -1,0 +1,15 @@
+.moviesSprite--wrapper--filters {
+  select {
+    background-color: var(--navbar-bgColor);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: var(--movie--item-text-color);
+
+    &,
+    &:focus,
+    &:focus-within {
+      outline: none;
+      border: none;
+    }
+  }
+}
